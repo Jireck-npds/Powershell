@@ -54,7 +54,7 @@ function Get-AzureADUserByDepartmentToExcel {
 <# Déclaration du form  #>
 [void][Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic')
 $title = 'Audit User By Department'
-$msg   = 'Entrer le nom du departement , ex :"TGS/TGP/MS&GRP":'
+$msg   = 'Entrer le nom du departement , ex :"XXX/YYY/ZZZ":'
 $GroupAAD = [Microsoft.VisualBasic.Interaction]::InputBox($msg, $title)
 
 $GroupAAD
